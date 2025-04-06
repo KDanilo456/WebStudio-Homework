@@ -702,3 +702,259 @@ div{
     max-height: 70px;
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
 }
+.back-drop{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2) ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 528px;
+    min-height: 581px;
+    max-width: 528px;
+    max-height: 581px;
+    background-color: white;
+}
+.is-hidden{
+    opacity: 0;
+    pointer-events: none
+}
+.modal-close-div{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    bottom: 265px;
+    min-width: 30px;
+    min-height: 30px;
+    right: 505px;
+}
+.modal-close-div:hover{
+    fill: var(--blue);
+}
+.svg-close{
+    position: relative;
+    left: 6px;
+}
+.modal h1{
+    font-size: 20px;
+    min-width: 448px;
+    min-height: 23px;
+    font-weight: 700;
+    margin: 0 auto;
+    position: relative;
+    bottom: 230px;
+    left: 30px;
+}
+.form-name{
+    position: relative;
+    right: 450px;
+}
+.form-name input{
+    width: 448px;
+    height: 40px;
+    padding-left: 35px;
+}
+.tel-section{
+    position: relative;
+    right: 28px;
+    margin-top: 28px;
+}
+.email-section{
+    position: relative;
+    right: 16px;
+    margin-top: 28px;
+}
+.user-section{
+    margin-top: 65px;
+}
+.text-name{
+    position: relative;
+    bottom: 35px;
+    left: 25px;
+}
+.text-tel{
+    position: relative;
+    bottom: 35px;
+    left: 52px;
+}
+.text-email{
+    position: relative;
+    bottom: 35px;
+    left: 40px;
+}
+.tel-svg{
+    position: absolute;
+    left: 63px;
+    top: 14px;
+    z-index: 1;
+}
+.email-svg{
+    position: absolute;
+    top: 13px;
+    left: 49px;
+    z-index: 1;
+}
+.comentar-section{
+    position: relative;
+    right: 43px;
+    margin-top: 28px;
+}
+.comentar-section p{
+    position: relative;
+    bottom: 75px;
+    left: 67px;
+    font-size: 12px;
+    color: var(--gray);
+}
+.comentar-section textarea{
+    width: 484px;
+    height: 120px;
+    position: relative;
+    left: 10px;
+}
+.checkbox-input{
+    max-width: 16px;
+    max-height: 15px;
+}
+.section-privacy-policy{
+    justify-content: center;
+    position: relative;
+    right: 10px;
+}
+span{
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
+}
+.btn-send{
+    width: 200px;
+    height: 50px;
+    max-width: 200px;
+    max-height: 50px;
+    border: solid var(--blue);
+    background-color: var(--blue);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.text-email{
+    font-size: 12px;
+    color: var(--gray);
+}
+.text-name{
+    font-size: 12px;
+    color: var(--gray);
+}
+.text-tel{
+    font-size: 12px;
+    color: var(--gray);
+}
+.text-privacy-policy{
+    font-size: 14px;
+    color: var(--gray);
+}
+.email-section:focus{
+    fill: var(--blue);
+}
+.input-name:focus{
+    outline: 1px solid var(--blue); 
+
+}
+.input-tel:focus{
+    outline: 1px solid var(--blue);
+}
+.input-email:focus{
+    outline: 1px solid var(--blue);
+}
+textarea:focus{
+    outline: 1px solid var(--blue);
+}
+.label:focus-within svg{
+    color: var(--blue);
+}
+.user-svg{
+    z-index: 1;
+    position: relative;
+    right: 480px;
+    top: 5px;
+}
+.form-name input{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.form-name textarea{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.subscribe-title{
+    font-size: 14px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.join{
+    font-size: 14px;
+    margin-top: 32px;
+}
+.mail-input{
+    width: 358px;
+    height: 50px;
+    max-height: 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.mail-input::placeholder{
+    font-size: 16px ;
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    left: 16px;
+}
+.btn-subscribe{
+    padding-right: 63px;
+    width: 200px;
+    height: 54px;
+    /* max-height: 50px;
+    padding-top: 18px; */
+    /* padding-bottom: 17px; */
+    background-color: var(--blue);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: white;
+    border: solid var(--blue);
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    position: relative;
+    bottom: 54px;
+    left: 370px;
+    max-width: 200px;
+    padding-left: 16px;
+}
+.nav-footer{
+    position: relative;
+    right: 130px;
+}
+.subscribe-form-section{
+    margin-left: 183px;
+    margin-top: 55px;
+}
+.icon-send-svg{
+    position: relative;
+    left: 310px;
+    bottom: 46px;
+}
+.subscribe-form-section-nav-portfolio{
+    margin-top: 56px;
+}
